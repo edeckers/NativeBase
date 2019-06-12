@@ -11,13 +11,12 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import Fontisto from 'react-native-vector-icons/Fontisto';
 import Foundation from 'react-native-vector-icons/Foundation';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import LineAwesome from "react-native-vector-icons/LineAwesome";
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Octicons from 'react-native-vector-icons/Octicons';
 import SimpleLineIcons from 'react-native-vector-icons/SimpleLineIcons';
 import Zocial from 'react-native-vector-icons/Zocial';
-
-import mapPropsToStyleNames from '../utils/mapPropsToStyleNames';
 
 class IconNB extends Component {
   static contextTypes = {
@@ -70,6 +69,9 @@ class IconNB extends Component {
       case 'Ionicons':
         this.Icon = Ionicons;
         break;
+      case "LineAwesome":
+        this.Icon = LineAwesome;
+        break;
       case 'MaterialCommunityIcons':
         this.Icon = MaterialCommunityIcons;
         break;
@@ -106,6 +108,7 @@ IconNB.propTypes = {
     'Fontisto',
     'Foundation',
     'Ionicons',
+    "LineAwesome",
     'MaterialCommunityIcons',
     'MaterialIcons',
     'Octicons',
