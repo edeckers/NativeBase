@@ -10,6 +10,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import Foundation from 'react-native-vector-icons/Foundation';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import LineAwesome from "react-native-vector-icons/LineAwesome";
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Octicons from 'react-native-vector-icons/Octicons';
@@ -59,6 +60,9 @@ class IconNB extends Component {
     case 'Ionicons':
       this.Icon = Ionicons;
       break;
+    case "LineAwesome":
+      this.Icon = LineAwesome;
+      break;
     case 'MaterialCommunityIcons':
       this.Icon = MaterialCommunityIcons;
       break;
@@ -101,6 +105,7 @@ IconNB.propTypes = {
     'FontAwesome5',
     'Foundation',
     'Ionicons',
+    "LineAwesome",
     'MaterialCommunityIcons',
     'MaterialIcons',
     'Octicons',

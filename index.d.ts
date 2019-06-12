@@ -650,8 +650,8 @@ declare module "native-base" {
          * see Widget Icon.js
          */
 		interface Icon extends Testable {
-			name: string;
-			type?: "AntDesign" | "Entypo" | "EvilIcons" | "Feather" | "FontAwesome" | "FontAwesome5" | "Foundation" | "Ionicons" | "MaterialCommunityIcons" | "MaterialIcons" | "Octicons" | "SimpleLineIcons" | "Zocial";
+			name?: string;
+			type?: "AntDesign" | "Entypo" | "EvilIcons" | "Feather" | "FontAwesome" | "FontAwesome5" | "Foundation" | "Ionicons" | "LineAwesome" | "MaterialCommunityIcons" | "MaterialIcons" | "Octicons" | "SimpleLineIcons" | "Zocial";
 			// TODO position attribute of ReactNative.FlexStyle hasn't another position values without "absolute" and "relative"
 			style?: any;
 			onPress?: (e?: any) => any;
